@@ -87,3 +87,17 @@ and efficiency.
 
 
 
+# Primary Memory:
+
+Primary storage and internal memory are other names for primary memory,
+which is frequently referred to as main memory. Primary memory refers to all
+computer memory types that the processor can access directly over the
+data bus.
+
+Ex: Random Access Memory (RAM)
+
+
+
+# Hard Disk/SSD
+
+Is a large storage capacity stiff, non-removable magnetic disc.
