@@ -87,3 +87,56 @@ There are 3 stages involved :
 1. Working area
 2. Stage area
 3. Local repository
+
+
+# Git Commands
+
+1. git version
+2. git help
+3. git config
+4. git init
+5. git clone
+6. git add
+7. git status
+8. git rm
+9. git restore
+10. git commit
+11. git log
+12. git show
+13. git push
+14. git pull
+15. git branch
+
+
+
+# Remote branch details into a local repository
+
+git clone:
+If you want to get the project from a remote app, use clone then complete branch
+list and source code will come.
+
+git pull:
+It is used to get latest source code and new branch details, merge source code into
+working directory.
+
+git merge:
+This command is used to merge the changes from one branch to another branch.
+
+
+
+# case 1: Empty repository
+echo "# SampleProject" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/NitinTechnolgoy/SampleProject.git
+git push -u origin main
+
+
+# case 2: Existing repository
+git remote add origin https://github.com/NitinTechnolgoy/SampleProject.git
+git branch -M main
+git push -u origin main
+
+
