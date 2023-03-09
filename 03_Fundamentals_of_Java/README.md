@@ -103,3 +103,159 @@ A class is a collection of objects that have similar traits, behaviours, and att
 Object:
 An object is an entity with state and behaviour.
 
+
+
+
+# Statically typed vs Dynamically typed
+
+Statically typed: Programming languages are referred to as "Static typed" if the
+memory of the variable is provided at the time of compilation.
+
+For instance, C, C++, and Java
+
+Dynamically typed: Programming languages are said to as "dynamically typed"
+if the memory for the variable is provided at the time of execution.
+
+Like Python, PHP, and JavaScript
+
+
+
+# Variables
+
+● A variable is the name of a memory-allocated reserved area. It may be thought of as
+the name of a memory location, in other words.
+
+● While the Java programme is running, the value is held in a container.
+
+● To identify the storage location, each variable needs to have a special name.
+
+● A data type is assigned to a variable (we will learn about it after this topic).
+
+
+
+
+# Syntax for Declaring a Variable:
+
+Type variable_name = value;
+
+The name of a variable is variable_name. The variable can be initialised by
+supplying an equal sign and a value (initialization i.e. assigning an initial value, is
+optional). However, a Java uninitialized local variable is never given a default
+value by the compiler.
+
+
+
+# Naming Conventions for variables in Java
+
+Variable names should not begin with a number.For example
+int 2 var; // 2 var is an invalid variable.
+
+White Spaces are not permitted in variable names. For example,
+int cricket score; // invalid variables.
+There is a gap/whitespace between cricket and score.
+
+A java keyword (reserved word) cannot be used as a variable name. For
+example, int float; is an invalid expression as float is a predefined
+keyword(we will learn about them) in java.
+
+
+
+
+# Naming Conventions for variables in Java
+
+As per the latest coding practices, for variable names with more than one word
+the first word has all lowercase letters and the first letter of subsequent words are
+capitalised. For example, cricketScore, codePracticeProgram etc. This type of
+format is called camelcase.
+
+While creating variables, it's preferable to give them meaningful names like-
+‘age’, ‘earning’, ‘value’ etc. for instance, makes much more sense than variable
+names like a, e, and v.
+
+We use all lowercase letters when creating a one-word variable name. It's
+preferable(and in practice) to use physics rather than PHYSICS or pHYSICS.
+
+
+
+
+# Data Types:
+
+There are two types of data types in Java:
+
+1. Primitive data types: The primitive data types include boolean, char, byte,
+short, int, long, float and double.
+
+2. Non-primitive data types: The non-primitive data types include classes,
+Strings, Interfaces, and Arrays.
+
+
+
+
+# Primitive data types
+
+A primitive type is predefined by the language and is named by a reserved keyword.
+1. boolean
+2. byte
+3. short
+4. int
+5. long
+6. double
+7. float
+8. char
+
+
+
+
+Once we have mastered the primitives and are well informed in the Java programming
+principles, we will discuss the slightly more complex non-primitive data types.
+
+
+# Identifiers
+
+An identifier is a name given to a package, class, interface, method, or variable. All identifiers
+must have different names.
+
+In Java, there are a few points to remember while dealing with identifiers :
+Rule 1 − All identifiers should begin with a letter (A to Z or a to z), $ and _ and must be
+unique.
+Rule 2 − After the first character/letter, identifiers can have any combination of characters.
+Rule 3 − A keyword cannot be used as an identifier.
+Rule 4 − The identifiers are case-sensitive.
+Rule 5 – Whitespaces are not permitted.
+Examples of legal identifiers: rank, $name, _rate, __2_mark.
+Examples of illegal identifiers: 102pqr, -name.
+
+
+
+
+# Operators in Java
+
+Operators in Java can be classified into 6 types:
+1. Arithmetic Operators
+2. Relational Operators
+3. Logical Operators
+4. Assignment Operators
+5. Unary Operators
+6. Bitwise Operators
+
+
+
+
+# Java Arithmetic operators:
+
+Arithmetic operators are used in mathematical expressions in the same way that they
+are used in algebra. The following lists the arithmetic operators:
+1. Addition(+)
+2. Subtraction(-)
+3. Multiplication(*)
+4. Division(/)
+5. Modulus(%)
+
+
+
+
+# Incrementation and Decrementation
+
+++ Increment
+
+-- Decrement
