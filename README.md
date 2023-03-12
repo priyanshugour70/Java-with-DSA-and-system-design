@@ -1,6 +1,4 @@
-# Java-with-DSA-and-system-design
-
-This course is taught by Physics with Java, DSA, and system design. 
+# Java-with-DSA-and-system-design 
 
 We will discuss these topics in this course.
 
