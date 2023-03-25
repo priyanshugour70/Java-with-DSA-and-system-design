@@ -47,6 +47,17 @@ preference for local variable. This approach is called the
 “Shadowing problem”.
 
 
+## Setters
+
+Setter methods are used to set the value to the instance variables of the class.
+
+Syntax for setter method
+a. compulsory the method name should start with set.
+b. it should be public.
+c. return type should be void.
+d. compulsorily it should have some argument.
+
+
 
 
 
