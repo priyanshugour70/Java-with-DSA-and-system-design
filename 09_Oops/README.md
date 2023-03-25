@@ -59,6 +59,19 @@ d. compulsorily it should have some argument.
 
 
 
+## Getters
+
+Getter methods are used to get the value from the instance variables of the class.
+
+Syntax for getter method
+a. compulsory the method name should start with get.
+b. it should be public.
+c. return type should not be void.
+d. compulsorily it should not have any argument.
+
+
+
+
 
 
 
