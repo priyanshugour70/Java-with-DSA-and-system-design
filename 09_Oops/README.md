@@ -100,4 +100,17 @@ constructor, so we say every java class will have a compiler generated default
 constructor or programmer written constructor but not both simultaneously.
 
 
+## Constructor Overloading/Constructor
+Chaining
+● A class can contain more than one constructor and all these constructors have
+the same name they differ only in the type of argument, hence these
+constructors are considered as "Overloaded constructor".
+
+
+## super() vs this()
+
+1. The first line inside the constructor can be super()/ this().
+2. If we are not writing anything then compiler will generate super().
+
+
 
