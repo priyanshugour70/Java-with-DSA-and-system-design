@@ -88,4 +88,16 @@ but a constructor.
 
 
 
+## Default Constructor
+
+● For every java class constructor concept is applicable.
+
+● If we don't write any constructor, then the compiler will generate a default
+constructor.
+
+● If we write at least one constructor then the compiler won't generate any default
+constructor, so we say every java class will have a compiler generated default
+constructor or programmer written constructor but not both simultaneously.
+
+
 
