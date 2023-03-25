@@ -75,3 +75,17 @@ d. compulsorily it should not have any argument.
 
 
 
+## Constructor
+
+● Object creation is not enough, compulsorily we should perform initialization then
+only the object is in a position to provide the response properly.
+
+● Whenever we are creating an object some piece of the code will be executed
+automatically to perform initialization of an object. This piece of code is nothing
+but a constructor.
+
+● Main objective of the constructor is nothing but initialisation of Object.
+
+
+
+
