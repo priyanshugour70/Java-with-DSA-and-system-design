@@ -26,9 +26,39 @@ public class _12_Introduction_to_Generics {
 
         String str0 = ar[0];
         String str1 = ar[1]; // we can add becuase it is String and we add String type in String .
+        System.out.println("-------------------------------------------------------------------------");
 
         // No TypeSafety
-        ArrayList a1 = new ArrayList();
+        ArrayList al = new ArrayList();
 
+        al.add("Priyanshu");
+        al.add("Devanshu");
+        al.add("Harshita");
+        al.add("Suhani");
+        al.add(18);
+
+        Object obj = al.get(0);
+        System.out.println(obj); // we want to store the data of ArrayList then we store data in Object form.
+
+        // If we want to Store in form of String then we use this .
+        String str2 = (String) al.get(0); // using TypeCasting or DownCasting
+        // String str3 = (String) al.get(4); // in this Line gives a RunTime Exception
+        // because we add int as a String.
+        System.out.println(str2);
+
+        System.out.println("-------------------------------------------------------------------------");
+
+        // TypeSafety in Collection in Java.
+        ArrayList<String> al1 = new ArrayList<String>();
+
+        al1.add("Priyanshu");
+        al1.add("Devanshu");
+        al1.add("Harshita");
+        al1.add("Suhani");
+        // al1.add(18); // It Shows Compiling Error
+
+        String str5 = al1.get(0);
+        String str6 = al1.get(1);
+        System.out.println(str5 + " | " + str6);
     }
 }
