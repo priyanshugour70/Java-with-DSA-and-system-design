@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class _05_Writing_Data_Onto_File_uisng_FileWriter {
+public class _05_Writing_Data_Onto_File_using_FileWriter {
     public static void main(String[] args) throws IOException {
         File dir = new File("Hello");
         dir.mkdir();
