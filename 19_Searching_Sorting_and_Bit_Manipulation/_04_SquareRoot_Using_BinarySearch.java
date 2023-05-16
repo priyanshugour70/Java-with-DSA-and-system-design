@@ -1,5 +1,8 @@
 import java.util.*;
 
+// Time Complexity : O(logN)
+// Space Complexity : O(1)
+
 public class _04_SquareRoot_Using_BinarySearch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
