@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+// Time Complexity : O(logN)
+// Space Complexity : O(1)
+
 public class _03_Lower_and_Higher_Bound {
     public static void main(String[] args) {
 
@@ -28,6 +31,8 @@ public class _03_Lower_and_Higher_Bound {
 
         while (right >= left) {
             int mid = (left + right) / 2;
+            // To avoid overflow
+            // int mid = left + (right - left )/2;
 
             if (arr[mid] == key) {
                 temp = mid;
