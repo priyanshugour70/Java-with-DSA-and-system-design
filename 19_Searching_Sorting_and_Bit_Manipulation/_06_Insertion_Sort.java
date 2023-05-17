@@ -10,7 +10,7 @@ public class _06_Insertion_Sort {
         System.out.println("Before Sorted Array.. ");
         printArray(arr);
         insertionSort(arr);
-        System.out.println("After Sorted Array using Bubble Sort : ");
+        System.out.println("After Sorted Array using Insertion Sort : ");
         printArray(arr);
     }
 
