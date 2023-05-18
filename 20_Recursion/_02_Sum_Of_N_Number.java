@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+// Time Complexity : O(n)
+// Space Complexity : O(n)
+
 public class _02_Sum_Of_N_Number {
 
     public static void main(String[] args) {
