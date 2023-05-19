@@ -1,9 +1,6 @@
 import java.util.*;
 
-public class _05_Finding_Of_Power_Using_Recursion {
-    // Time Complexity : O(2^n)
-    // Space Complexity : O(n)
-
+public class _05_Finding_Of_Power_Using_Recursion_Brute_Force {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
