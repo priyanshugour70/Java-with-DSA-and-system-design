@@ -1,6 +1,6 @@
 import java.util.*;
 
-// Time Complexity : O(n)
+// Time Complexity : O(2^n)
 // Space Complexity : O(n)
 
 public class _04_Fibonacci_Using_Recursion {
