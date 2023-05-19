@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class _05_Finding_Of_Power_Using_Recursion_Brute_Force {
+public class _05_Finding_Of_Power_Brute_Force {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
