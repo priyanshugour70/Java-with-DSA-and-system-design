@@ -3,7 +3,7 @@ import java.util.*;
 // Time Complexity : O(2^n)
 // Space Complexity : O(n)
 
-public class _06_Number_Of_Stairs {
+public class _08_Number_Of_Stairs {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
