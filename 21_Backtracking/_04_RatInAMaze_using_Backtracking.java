@@ -52,10 +52,12 @@ public class _04_RatInAMaze_using_Backtracking {
     }
 
     public static void main(String[] args) {
-        int[][] maze = { { 0, 0, 0, 0 },
-                { 0, -1, 0, 0 },
-                { -1, 0, 0, 0 },
-                { 0, 0, 0, 0 } };
+        int[][] maze = { { 0, 0, 0, 0, 0 },
+                { 0, -1, 0, 0, 0 },
+                { -1, 0, 0, 0, 0 },
+                { 0, 0, 0, 0, 0 },
+                { 0, 0, 0, 0, 0 },
+        };
 
         System.out.println("Counts : " + countPaths(maze, maze.length));
     }
