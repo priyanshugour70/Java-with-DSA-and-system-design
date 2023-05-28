@@ -1,4 +1,4 @@
-public class _04_RatInAMaze_using_Backtracking {
+public class _04_RatInAMaze_using_DP {
     public static int countPaths(int[][] maze, int n) {
         /*
          * if source or destination are blocked then return 0
