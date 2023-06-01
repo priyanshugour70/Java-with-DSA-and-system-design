@@ -1,6 +1,9 @@
 import java.util.ArrayList;
 import java.util.List;
 
+// Time Complexity : O(n! * n)
+// Space Complexity : O(n! * n)
+
 public class _10_Permutations_Using_Backtracking {
     public static void main(String[] args) {
 
