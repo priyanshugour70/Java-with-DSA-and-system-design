@@ -1,4 +1,4 @@
-public class _01_InsertionAtEnd_LinkedList {
+public class _03_InsertionAtEnd_LinkedList {
 
     Node head;
 
@@ -45,7 +45,7 @@ public class _01_InsertionAtEnd_LinkedList {
 
     public static void main(String[] args) {
 
-        _01_InsertionAtEnd_LinkedList list = new _01_InsertionAtEnd_LinkedList();
+        _03_InsertionAtEnd_LinkedList list = new _03_InsertionAtEnd_LinkedList();
 
         list.insertAtEnd(10);
         list.insertAtEnd(20);
