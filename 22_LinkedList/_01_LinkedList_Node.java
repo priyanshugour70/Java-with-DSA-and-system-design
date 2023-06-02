@@ -1,4 +1,4 @@
-public class _01_LinkList_Node {
+public class _01_LinkedList_Node {
 
     class Node {
         int data;

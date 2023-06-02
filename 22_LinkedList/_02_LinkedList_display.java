@@ -1,4 +1,4 @@
-public class _02_LinkList_display {
+public class _02_LinkedList_display {
 
     Node head;
 
