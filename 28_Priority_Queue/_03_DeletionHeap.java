@@ -43,6 +43,31 @@ public class _03_DeletionHeap {
         return n;
     }
 
+    // one more Delete Method it also follow the same procedure without using
+    // heapify
+    public static int delete2(int[] arr, int n) {
+        // get the last node
+        // replace it with the first element
+        arr[0] = arr[n - 1];
+
+        // decrease the size of the heap
+        n--;
+
+        int i = 0;
+
+        while (i < (n - 1) / 2) {
+            // Swap if child is greater than parent
+            int maximum = (arr[2 * i + 1] > arr[2 * i + 2]) ? 2 * i + 1 : 2 * i + 2;
+
+            swap(arr, i, maximum);
+
+            i = maximum;
+
+        }
+
+        return n;
+    }
+
     public static void printArray(int[] arr, int n) {
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
