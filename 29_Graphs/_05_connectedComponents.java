@@ -104,15 +104,3 @@ public class _05_connectedComponents {
 
     }
 }
-
-/*
- * 0 -------- 2
- * / /
- * / /
- * 1 4
- * \ /
- * \ /
- * \ /
- * 3
- * FALSE
- */
